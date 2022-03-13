@@ -1,0 +1,17 @@
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.head #logo{
+    color: var(--primary);
+}
+
+.head #slogan{
+    font-size:larger;
+    color: var(--primary);
+}

@@ -1,0 +1,108 @@
+.userIcon
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  /* border: 1px solid var(--primary); */
+  /* border-radius: 15px; */
+
+  
+}
+
+.wrapper{
+  border: 1px solid white;
+  min-width: 200px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px grey;
+  margin-left: 500px;
+}
+
+.top > div{
+  margin-bottom: 20px;
+}
+
+.top > div > input
+{
+  font-family: poppins;
+  text-align: left;
+  font-size: large;
+  color: var(--primary);
+  border: 0;
+  border-bottom: 1px solid var(--primary);
+  min-width: 80%;
+  
+}
+
+.top > div > input:focus{
+  outline: 0;
+  border-bottom: 1px solid red;
+ 
+}
+
+.error{
+  color: red;
+}
+
+.error.active{
+  color: green;
+}
+
+.bottom input[type="submit"]{
+  background-color: transparent;
+  border: 0.5px solid black;
+  padding: 5px;
+  min-width: 100px;
+  font-size: medium;
+  font-family: poppins;
+  cursor: pointer;
+  transition: all ease 300ms;
+}
+
+.bottom input[type="submit"]:hover{
+  background-color: var(--primary);
+  color: #fff;
+  border: 0.5px solid white;
+}
+.already{
+  color: var(--primary);
+}
+.userIcon .fas
+{
+  color: #377fad;
+  font-size: large;
+  padding: 5px;
+}
+
+
+.option{
+  text-decoration: none;
+  color: black;
+  border: 0;
+  background-color: transparent;
+  font-size: medium;
+  font-family: poppins;
+  cursor: pointer;
+  margin-left: 5px;
+  border-bottom: 1px solid black;
+}
+
+.music{
+  position: absolute;
+  top: 15%;
+  width: 40%;
+  left: 2%;
+}
+
+@media(min-width:200px) and (max-width:800px)
+{
+  .music{
+    display: none;
+  }
+
+  .wrapper{
+    margin-left: 0;
+  }
+}

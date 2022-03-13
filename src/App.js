@@ -1,10 +1,12 @@
 
 import './App.css';
-
+import Header from './Components/Header/Header'
+import Auth from './Components/Authenticate/Auth'
 function App() {
   return (
     <div className="App">
-      <h1>My Template</h1>
+      <Header />
+      <Auth/>
     </div>
   );
 }
