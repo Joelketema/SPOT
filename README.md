@@ -4,8 +4,8 @@
       
       Features
       
-      -Search for any song/album/artist
-      -basic play,pause,skip functionalities
-      -Create your own profile with your own music taste
+      Search for any song/album/artist
+      basic play,pause,skip functionalities
+      Create your own profile with your own music taste
       
  
